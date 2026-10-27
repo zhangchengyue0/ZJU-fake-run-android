@@ -114,7 +114,7 @@ python -m playwright install
 | `v1` | `md5(str(ms))` |
 | `client` | `base64(AES-128-ECB(SECRET[:16], {"heap":"0","root":"0","t":"<ms>"}))`（Android） |
 | `sign` | 见下 |
-| `timestamp` | native `cgapiEnrypt(...).split("|")[1]`（只依赖 `ms`；用仿真取） |
+| `timestamp` | native `cgapiEnrypt(...).split("\|")[1]`（只依赖 `ms`；用仿真取） |
 
 > `SECRET[:16]` = **SECRET 字符串前 16 个字符的 ASCII**，不是解码字节。
 
