@@ -1,0 +1,7 @@
+{
+  "username": "YOUR_STUDENT_ID",
+  "cgAuthorization": "YOUR_JWT_TOKEN",
+  "secret": "YOUR_SECRET_ENVELOPE",
+  "imei": "",
+  "captured_at": "YYYY-MM-DD HH:MM:SS"
+}

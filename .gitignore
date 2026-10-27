@@ -1,0 +1,18 @@
+# 运行时产物（含敏感信息，勿提交）
+session.json
+last_savesports.json
+run_state.json
+delay_state.json
+web_login.log
+*.flow
+*.apk
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 其它
+.DS_Store
+Thumbs.db
