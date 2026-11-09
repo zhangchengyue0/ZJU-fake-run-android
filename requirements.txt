@@ -1,0 +1,10 @@
+# 运行依赖（GUI / 打卡全流程）
+requests>=2.28
+pycryptodome>=3.18
+unicorn>=2.0
+capstone>=5.0
+pyelftools>=0.30
+playwright>=1.40
+
+# 可选：仅 zju_api.py 的离线自测需要（解析 .flow）
+mitmproxy>=10.0
