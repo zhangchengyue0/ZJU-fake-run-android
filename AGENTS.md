@@ -16,7 +16,7 @@
 
 | 步骤 | 命令 | 技术手段/说明 |
 |---|---|---|
-| 安装依赖 | `pip install requests pycryptodome unicorn capstone mitmproxy playwright` | `pycryptodome` 做 AES；`unicorn`+`capstone` 用于仿真 native 求 `timestamp`；`playwright` 用于登录抓凭据 |
+| 安装依赖 | `pip install -r requirements.txt` | `pycryptodome` 做 AES；`unicorn`+`capstone` 用于仿真 native 求 `timestamp`；`playwright` 用于登录抓凭据 |
 | 安装浏览器 | `python -m playwright install` | 供 `web_login.py` 拉起 Chrome |
 | 校验 native 库 | 确认 `libAMapSDK_Location_v6_6_0.so` 与脚本**同目录** | 该库名是伪装，实为签名库；`emulate_cgapi.py` 按脚本目录查找 |
 
