@@ -49,7 +49,7 @@
 ## 快速开始
 
 ```bash
-pip install requests pycryptodome unicorn capstone mitmproxy playwright
+pip install -r requirements.txt
 python -m playwright install
 
 # Windows 双击：启动工具.bat    或    python gui.py
